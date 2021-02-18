@@ -52,5 +52,5 @@ const mario_bros_data = [
 ]
 
 module.exports = {
-
+    mario_bros_data
 }
