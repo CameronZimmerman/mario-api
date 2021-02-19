@@ -3,6 +3,8 @@ const app = express();
 const { mario_bros_data } = require('./data.js');
 const cors = require('cors');
 
+app.use(cors());
+
 app.get('/', (req, res) => {
     res.json({ message: 'Welcome to my mario bros api! Enjoy.'} );
 });
